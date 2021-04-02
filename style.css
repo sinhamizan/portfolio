@@ -1,0 +1,250 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    height: 100%;
+    margin: 0;
+}
+html {
+    height: 100%;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+    transition: all 0.3s;
+}
+h2 {
+    font-size: 36px;
+    font-weight: 700;
+    text-transform: capitalize;
+    text-align: right;
+}
+h3 {
+    font-size: 30px;
+    font-weight: 600;
+    color: #444;
+}
+p {
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: 400;
+    color: #444;
+}
+ul {
+    padding: 0;
+    margin-bottom: 0;
+}
+li {
+    list-style: none;
+}
+
+
+
+
+.main-menu {
+    position: fixed;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.menu {
+    text-align: right;
+}
+.menu li {
+    list-style: none;
+    display: inline;
+}
+
+.menu li a{
+    text-decoration: none;
+    display: inline-block;
+    color: #fff;
+    padding: 30px 10px;
+    font-weight: 500;
+    transition: all 0.5s;
+    font-size: 18px;
+}
+.menu li a:hover {
+    color: #dbc922;
+}
+
+.hero {
+    background-image: url(imgs/mizan.jpg);
+    height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.hero-content {
+    text-align: left;
+}
+.hero-content h1 {
+    font-size: 48px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #444;
+    padding-top: 400px;
+}
+.hero-content p {
+    font-size: 24px;
+    color: #dbc922;
+}
+
+
+.about-me {
+    background: #444;
+    padding: 60px 0;
+}
+.about {
+    width: 800px;
+    margin: 0 auto;
+    background: #dbc922;
+    display: table;
+}
+.about-img {
+    float: left;
+    width: 50%;
+}
+.about-img img {
+    width: 100%;
+}
+.about-content {
+    float: left;
+    width: 50%;
+    padding: 20px 15px;
+}
+.about-content a {
+    margin-top: 30px;
+}
+
+
+.services {
+    padding: 60px 0;
+}
+.service-content {
+    padding-bottom: 40px;
+}
+.single-service {
+    background: #dbc922;
+    padding: 50px 20px;
+    border-radius: 7px;
+    margin-bottom: 25px;
+}
+.single-service:nth-child(even) {
+    background: red;
+}
+
+
+
+section.portfolios {
+    padding: 60px 0;
+    background: #444;
+}
+
+
+
+.pricing {
+    padding: 60px 0;
+}
+.price-content {
+    padding-bottom: 40px;
+}
+.price-item {
+    background: #444;
+    width: 33.33%;
+    float: left;
+    text-align: center;
+    padding: 50px 5px;
+}
+.price-item li {
+    color: #fff;
+}
+.price-item:nth-child(even) {
+    background: #dbc922;
+}
+.price-item:nth-child(even) li {
+    color: #444;
+}
+.price {
+    width: 100px;
+    height: 100px;
+    background: yellow;
+    border-radius: 50px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 37px;
+    margin-top: -100px;
+}
+
+
+
+
+.contact-me {
+    padding: 60px 0;
+}
+.contact-content {
+    padding-bottom: 40px;
+}
+.contact {
+    border-right: 1px solid #dbc922;
+    padding-right: 25px;
+}
+.contact input {
+    width: 100%;
+    padding: 12px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    margin-bottom: 15px;
+}
+.contact input[type=submit] {
+    background: #444;
+    border: none;
+    transition: all 0.3s;
+    color: #fff;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.contact input[type=submit]:hover {
+    background: #dbc922;
+}
+.contact textarea {
+    width: 100%;
+    padding: 12px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    margin-bottom: 15px;
+    height: 90px;
+}
+
+
+
+
+
+
+
+
+
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+  }
+  
+  #myBtn:hover {
+    background-color: #555;
+  }
