@@ -47,10 +47,14 @@ li {
 
 
 
+/* ------------------------------------------- */
+
+
+/* main menu */
 .main-menu {
     position: fixed;
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.7);
 }
 .menu {
     text-align: right;
@@ -59,7 +63,6 @@ li {
     list-style: none;
     display: inline;
 }
-
 .menu li a{
     text-decoration: none;
     display: inline-block;
@@ -72,13 +75,23 @@ li {
 .menu li a:hover {
     color: #dbc922;
 }
+.logo {
+    margin: 10px 0;
+}
+.logo img {
+    width: 100%;
+}
 
+
+
+
+/* hero area */
 .hero {
     background-image: url(imgs/mizan.jpg);
     height: 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .hero-content {
     text-align: left;
@@ -88,14 +101,30 @@ li {
     font-weight: 700;
     text-transform: uppercase;
     color: #444;
-    padding-top: 400px;
+    padding-top: 300px;
 }
 .hero-content p {
     font-size: 24px;
-    color: #dbc922;
+    color: #444;
+}
+.hero-content a {
+    font-size: 16px;
+    font-weight: 500;
+    background: #dbc922;
+    padding: 15px 30px;
+    display: inline-block;
+    border-radius: 4px;
+    text-transform: uppercase;
+    margin-right: 10px;
+    transition: all 0.3s;
+}
+.hero-content a:hover {
+    background: #444;
+    color: #fff;
 }
 
 
+/* about me area */
 .about-me {
     background: #444;
     padding: 60px 0;
@@ -118,11 +147,19 @@ li {
     width: 50%;
     padding: 20px 15px;
 }
+.about-content h2 {
+    text-align: left;
+}
 .about-content a {
     margin-top: 30px;
+    transition: all 0.3s;
+}
+.about-content a:hover {
+    color: #444;
 }
 
 
+/* Services */
 .services {
     padding: 60px 0;
 }
@@ -135,16 +172,41 @@ li {
     border-radius: 7px;
     margin-bottom: 25px;
 }
-.single-service:nth-child(even) {
-    background: red;
+.single-service h3 {
+    height: 75px;
+}
+.single-service p {
+    height: 120px;
 }
 
 
-
-section.portfolios {
+/* Portfolios */
+.portfolios {
     padding: 60px 0;
     background: #444;
 }
+.port-title h2 {
+    color: #fff;
+}
+.port-cont p {
+    color: #fff;
+}
+.port-btn {
+    text-align: center;
+    margin-bottom: 10px;
+}
+.port-btn button {
+    padding: 10px 20px;
+    border: none;
+    background: #dbc922;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+}
+.port-cont {
+    padding-bottom: 40px;
+}
+
 
 
 
@@ -152,7 +214,7 @@ section.portfolios {
     padding: 60px 0;
 }
 .price-content {
-    padding-bottom: 40px;
+    padding-bottom: 100px;
 }
 .price-item {
     background: #444;
@@ -167,19 +229,43 @@ section.portfolios {
 .price-item:nth-child(even) {
     background: #dbc922;
 }
+.price-item:nth-child(even) .price {
+    width: 100px;
+    height: 100px;
+    background: #dbc922;
+    border-radius: 50px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 37px;
+    margin-top: -98px;
+}
 .price-item:nth-child(even) li {
     color: #444;
 }
 .price {
     width: 100px;
     height: 100px;
-    background: yellow;
+    background: #444;
     border-radius: 50px;
     margin: 0 auto;
     text-align: center;
     padding-top: 37px;
-    margin-top: -100px;
+    margin-top: -98px;
 }
+.price h4 {
+    font-size: 24px;
+    font-weight: 600;
+    color: #fff;
+}
+
+
+.technology {
+    position: relative;
+}
+.technology img {
+    width: 100%;
+}
+
 
 
 
